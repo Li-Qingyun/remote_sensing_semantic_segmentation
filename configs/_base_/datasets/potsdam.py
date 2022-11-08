@@ -36,8 +36,8 @@ train_dataloader = dict(
             img_path='img_dir/train', seg_map_path='ann_dir/train'),
         pipeline=train_pipeline))
 val_dataloader = dict(
-    batch_size=batch_size,
-    num_workers=4,
+    batch_size=1,
+    num_workers=2,
     persistent_workers=True,
     sampler=dict(type='DefaultSampler', shuffle=False),
     dataset=dict(
