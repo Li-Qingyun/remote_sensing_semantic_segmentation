@@ -9,6 +9,6 @@ train_dataloader = dict(
 val_dataloader = dict(
     dataset=dict(
         data_prefix=dict(
-            img_path='img_IRRG/val', seg_map_path='ann_all/val')),
-    ignore_index=ignore_index)
+            img_path='img_IRRG/val', seg_map_path='ann_all/val'),
+        ignore_index=ignore_index))
 test_dataloader = val_dataloader

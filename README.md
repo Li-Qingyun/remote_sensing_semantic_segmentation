@@ -12,7 +12,10 @@ Personal maintenance and use.
 
 ### Support Model
 
-- 
+- FCN
+- DeepLab
+- UNet
+- UperNet
 
 
 
