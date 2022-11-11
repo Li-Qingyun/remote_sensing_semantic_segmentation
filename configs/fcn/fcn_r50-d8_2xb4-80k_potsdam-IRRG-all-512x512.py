@@ -6,7 +6,7 @@ crop_size = (512, 512)
 data_preprocessor = dict(size=crop_size)
 model = dict(
     data_preprocessor=data_preprocessor,
-    decode_head=dict(num_classes=6),
-    auxiliary_head=dict(num_classes=6))
+    decode_head=dict(num_classes=5),
+    auxiliary_head=dict(num_classes=5))
 
 default_hook = dict(checkpoint=dict(interval=10000))
